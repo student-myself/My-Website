@@ -5,7 +5,19 @@ h1 {
 button {
     background-color: red;
     color: white;
-    height: 30px;
-    width: 50px;
+    padding: 10px;
     border-radius: 10px;
+}
+
+p {
+    color:chocolate;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
 }
